@@ -1,0 +1,1 @@
+# gesione_testo
