@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>News</title>
+  </head>
+
+  <body>
+
+    <h1>News</h1>
+
+    <!-- id e class sono attributi che possono essere assegnati
+      a tutti gli elementi e servono per identificarli e assegnare loro
+      un significato che i tag da soli non possono fornire -->
+
+    <!-- l'attributo id permette di identificare
+      un elemento della pagina in maniera univoca.
+      Solo un elemento in questa pagina 
+      puo' avere id pari a "posts" -->
+    <div id="posts">
+
+      <!-- all'interno di "posts" ci sono tanti post,
+        quindi non si puo' utilizzare id.
+        Ogni post avra' classe "post" -->
+      <div class="post">
+        <!-- ed ogni elemento del post ha un chiaro
+          significato assegnato dal valore dell'attributo class -->
+        <div class="post-title">Post #1</div>
+        <div class="post-body">Corpo del post #1</div>
+        <div class="post-author">Autore del post #1</div>
+      </div>
+      
+      <div class="post">
+        <div class="post-title">Post #2</div>
+        <div class="post-body">Corpo del post #2</div>
+        <div class="post-author">Autore del post #2</div>
+      </div>
+
+      <div class="post">
+        <div class="post-title">Post #3</div>
+        <div class="post-body">Corpo del post #3</div>
+        <div class="post-author">Autore del post #3</div>
+      </div>
+
+    </div> <!-- end posts -->
+
+  </body>
+
+</html>
